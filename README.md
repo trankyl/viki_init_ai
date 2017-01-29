@@ -1,0 +1,1 @@
+# viki_init_ai

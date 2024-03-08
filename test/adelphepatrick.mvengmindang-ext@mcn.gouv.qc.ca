@@ -1,0 +1,149 @@
+NIP : 080523
+
+
+============
+
+Vacances pour la direction globale intradoc.itp.extra
+ 
+Remplissez les deux pour éviter, un manque de communication.
+
+============
+
+adelphepatrick.mvengmindang-ext@mcn.gouv.qc.ca
+
+===============
+
+CMDB
+
+changement de version de image Fortinet
+
+===============
+
+git config --global user.name "Adelphe Mveng"
+git config --global user.email "adelphepatrick.mvengmindang-ext@mcn.gouv.qc.ca"
+
+====ceion
+
+==========================
+
+AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca
+Mcnoci11052023adelphe!
+Mcnoci27092023$ == pas sur
+Mcnoci29092023$
+Mcnoci29012024$
+
+====================
+
+dev.azure.com/mcncei
+Adelphe-Patrick.Mveng-Mindang@ceimcn.onmicrosoft.com
+Mcn2023!
+
+Organisation : CEI - MCN
+Domaine : ceimcn.onmicrosoft.com
+
+==================
+
+
+ceiintegration
+AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca
+Ceiintegration23112023$
+
+=====================
+
+
+
+https://dev.azure.com/AZexplorerOrg/_git/Azure%20Landing%20Zone
+Adelphe-Patrick.Mveng-Mindang@azexplorer.onmicrosoft.com
+Mcn2022! -- expiré
+
+jai reseté ton password et le pw temporaire est: 
+Wayu9142
+
+Mcn2023!
+Mcn080923$ -- expiré
+Mcn150124$
+
+===========
+
+4094092882
+
+============================
+
+Dernier mot de passe pour ouvrir session Windows
+Mcn080923$
+
+Dernier mot de passe pour se connecter au VPN
+Mcn080923$
+
+code utilisateur : mvead01
+
+=======================================
+
+AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca
+Mcn080923$
+mot de passe pour se connecter au PC
+Mcn300823$
+
+mot de passe pour 
+se connecter a portain interne
+Mcn080923$
+
+
+========================
+
+•	https://dev.azure.com/GouvQC/
+
+============
+
+markdown :  Modification de la stratégie sur le seuil de verrouillage de compte
+
+CheckPoint-CloudGuard-1
+
+
+modif_manuel_seuil_verrou_compte_user.md
+
+
+===============
+
+Pour ceux qui ne sont pas au courant, on veut consolider eventuellement les abonnement cei et tactique sous le tenant du CEI. Le tenant Azure Explorer continuera d'exister mais pour des essai plus liés avec l'AAD en soit et moins par rapports aux ressources Azure.
+
+ 
+
+Dans cet esprit, j'ai créé un nouvel abonnement dans le tenant du CEI nommé cei-onprem-001 (cei-onprem-001 - Microsoft Azure) qui pourra être l'endroit ou on simule un environnement onprem.
+
+ 
+
+Azure Explorer a maintenant le nom de domaine azexplorer.cei.mcn.gouv.qc.ca. Quand l'infra et le DC seront setup, on pourra aussi activé AD Connect mais aussi le DNS services pour ensuite faire la demande d'ajout de NS record (doit etre fait par Mustapha au gars réseau, validé avec eux) pour qu'on devienne le serveur autoritaire de cette zone et être autonomes dans nos essai
+
+=================
+
+
+C:\Users\mvead01\OneDrive - Gouv Qc\repos\ApplyEtiquetteV22Az\CEI-Azure-Zone-Accueil\azure-pipeline\templates\steps\deploy-landingzone.yml
+
+  rgtags='$(var-lz-rgtags)' \
+
+================
+
+objectif smart oci
+nettoyer compartiment dans tenant oci
+
+SMART !
+
+
+•	Mettre à jour la version de la ressource App Gateway déployé par le script de la ZA Azure
+•	Corriger 3 anomalies mineures du script de déploiement de la ZA Azure précédemment répertoriées (dette)
+•	Rédiger un document d’analyse et d’orientation sur une possible standardisation de la configuration interne de Fortigate au travers les différentes ZA du CEI
+•	Valider la présence des politiques (et ajouter dans le script de la ZA Azure dans le cas échéant) pour renforcer la désactivation des endpoints publiques sur les voutes, compte de stockage et serveurs SQL
+•	Ajouter les ressources Azure et la configuration nécessaire dans le script de déploiement de la ZA pour permettre la communication privée avec les voutes et compte de stockage
+•	Créer un abonnement dédié à la simulation de scénario OnPrem pour le CEI et y provisionner un Domain Controller en vue le connecter à notre AAD de développement
+•	Documenter la procédure d’activation des nouveaux agents de monitoring AMA (Azure Monitor Agent) des VM déployés dans Azure, incluant la procédure de migration pour les OP ayant précédemment déployé des agents de monitoring OMS/MMA
+•	Rédiger un document d’analyse sur les scénarios les plus probables de charges de travail rencontrés par les OP, qui servira de base pour éventuellement automatiser le déploiement de ceux-ci et ainsi effectuer des essais plus robustes et réalistes
+
+===============
+
+
+How to Generate an API Signing Key
+https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm#two
+
+
+=================

@@ -1,0 +1,38 @@
+
+==============
+ git config --global user.name "AdelphePatrick.MvengMindang-ext"
+
+git config --global user.email "AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca"
+
+=====================
+
+git config --global url."https://zrwrbi2th5grvndg44m3pm67ct7gtu25u2p5vgykx5ab7db3ipda@dev.azure.com/ccticei/".insteadOf "https://dev.azure.com/ccticei/"
+
+git clone https://dev.azure.com/ccticei/Migration/_git/Module-Fortigate
+ 
+
+======================
+
+git config --global url."https://oauth2:TOKEN@gitlab.com".insteadOf https://gitlab.com
+
+===============
+
+cat ~/.gitconfig
+
+=============
+
+to delete git config settings simply use the unset command:
+
+git config --global --unset core.editor
+
+209912
+209986
+209989
+
+=============
+
+Faire des formations pour l'architecture Azure
+
+
+=====================
+

@@ -1,0 +1,1 @@
+disable regle NSG ingress dans carre de sable compartiment

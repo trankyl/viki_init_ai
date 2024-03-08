@@ -1,0 +1,11 @@
+disable regle NSG ingress dans carre de sable compartiment
+
+============
+
+poc zone de seocurite
+
+===============
+
+https://dev.azure.com/GouvQC//PCCTI/_workitems/edit/247818/
+
+================

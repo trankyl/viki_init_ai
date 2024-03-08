@@ -1,0 +1,511 @@
+CIS OCI Landing Zone Quick Start Template Version 2
+https://www.ateam-oracle.com/post/cis-oci-landing-zone-quick-start-template-version-2
+
+=============
+
+https://spgouvqc-my.sharepoint.com/:v:/g/personal/mohamed_djani_mcn_gouv_qc_ca/ETG_PoHcXJBIj3LZ8Yh5B8IBZD-jqD6arrnLYwPyEDn0qQ
+
+
+================
+
+Tenant: ceiitq
+Username: adelphe.mveng
+
+
+====================
+
+
+https://dev.azure.com/AZexplorerOrg/_git/Azure%20Landing%20Zone
+Adelphe-Patrick.Mveng-Mindang@azexplorer.onmicrosoft.com
+Mcn2022!
+
+
+===================
+
+
+ssh-keygen
+
+
+===================
+
+Tenant: ceiitq
+
+Username: adelphe.mveng
+
+B6D>y6X3MB{#+Dpvl&Zj
+Ocimcn2022!
+
+===========
+
+ZoneTravailEquipe
+git rebase --interactive 06417712
+
+================
+
+Tenant en Ontario
+ceion
+
+AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca
+Mcnoci2023adelphe!==ancien
+Mcnoci29092023$
+
+==================
+
+Hello Mveng Mindang Adelphe Patrick,
+
+Your domain Default in ceion account is ready. To get started, activate your account.
+
+Activate Your Account
+
+Details
+If the activate your account link doesn't work, please copy and paste the following URL into the address bar of your browser:
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com:443/ui/v1/resetpwd?token=qdVwpZlH6Iw8H6M%2FXaDsz5PMAya69wacff0Ql7oEeGI%3D
+
+Important: This link will expire on Tuesday, January 17, 2023 1:55:17 PM CST.
+
+======================
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com/ui/v1/signin
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com/ui/v1/signin
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com/ui/v1/myconsole
+
+https://cloud.oracle.com/identity/domains/ocid1.domain.oc1..aaaaaaaaepizs5zcc2kj26ura5indkzv3r3bom7g3b2twfjg7ggb347m7h7q?domain=Default&region=ca-toronto-1
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com/ui/v1/signin
+
+
+https://idcs-3d7286f78a9d4a3282961e8ce90845e1.identity.oraclecloud.com/ui/v1/signin
+AdelphePatrick.MvengMindang-ext@mcn.gouv.qc.ca
+Mcnoci11052023adelphe!==ancien
+Mcnoci29092023$==nouveau
+
+Domaine d'identité : Default
+Tenant : ceion
+
+OCID Adelphe : ocid1.user.oc1..aaaaaaaajp2rq4lny52sueri6czan7iik7tsfm2rvxmzzburkb3k2unvmnya
+
+Compartiment racine de la location
+ceion
+ocid1.tenancy.oc1..aaaaaaaaevng5cb7yve3myznrz3lyehvioucls4yt2mx2bku7wtextnevupq
+
+
+Tenant :
+ceion
+ocid1.tenancy.oc1..aaaaaaaaevng5cb7yve3myznrz3lyehvioucls4yt2mx2bku7wtextnevupq
+
+====================
+
+OCI Tags
+
+By design, the CIS OCI Landing Zone Quick Start sets a freeform tag as an indicator for resources created by its Terraform scripts.
+The OCI Tag Defaults may not be applied to OCI Keys during creation. This issue is currently under investigation.
+Creating and using Defined Tags requires a two step process:
+Create the tag namespace and the tags.
+Assign the defined_tags.
+Assigning an empty map ({}) to defined_tags or freeform_tags deletes all prevouisly set values and also prevents tag defaults to be applied.
+Tag defaults are applied when providing a null value defined_tags = null.
+
+
+========================
+
+Policy and Tags
+We suggest that you put the tags in the root of the compartment tree in which they will be used. For example, if you plan to use tags across your Product-AcmeGizmo compartment tree, put the tag namespaces and the associated policy in the Product-AcmeGizmo compartment. 
+
+=====================
+
+Peut on Deployer de OCI a partir d'un pipeline ???
+https://docs.oracle.com/fr/solutions/build-pipeline-using-devops/index.html#GUID-D0D5B9DA-5C61-468C-A238-BE5530965A3A
+
+===============
+
+exemple deploiement dans OCI avec Terraform depuis un pipeline Github Actions et yaml
+https://github.com/oracle-quickstart/oci-arch-devops
+https://github.com/oracle-quickstart/oci-arch-devops/blob/master/.github/workflows/build-simple-orm.yml
+
+==================
+
+https://github.com/oracle-quickstart/oci-cis-landingzone-quickstart
+
+
+==============
+
+terraform init
+terraform plan -var-file="quickstart-input.tfvars" -out plan.out
+terraform apply plan.out
+
+
+
+========================
+
+ terraform plan -var-file="quickstart-input.tfvars" -out=tfplan
+ terraform show -json tfplan
+
+====================
+
+query
+  all resources matching 'vcn-comp-'
+sorted by timeCreated desc
+
+==============
+
+query internetgateway resources
+sorted by timeCreated desc
+
+===============
+
+query
+  natgateway resources
+sorted by timeCreated desc
+
+=================
+
+query
+  servicegateway resources
+sorted by timeCreated desc
+
+===================
+
+
+Prendre tojours le doccer DocDevOps.zip
+
+apres avoir integrer mon nouveau md + image dans le dossier compresse. , je le remet dans teams et je remplace , et j'ajoute un commentaire lors du remplacement avec la nature des ajouts dans le dossie remplacés
+
+
+===============
+
+Toujours tagger Yacine , lorsque je pousse un nouveau livrable dans Teams ou Azure DevOps
+
+===============
+
+TOD au 19 Juillet 2022
+Lister les activites qui restent a faire pour avoir un MVP de la soultion Oracle
+
+===========
+
+oci_EVENT
+
+
+
+
+
+releases/v2.2.1
+pipeline pour wiper les policy
+
+
+
+============
+
+https://spgouvqc.sharepoint.com/sites/MCN-PWA/default.aspx
+
+==============
+
+
+CloudGuard Security Management - BYOL
+
+==============
+
+adelphe_cmp
+
+==========
+
+7- Create both CloudGuard cluster members.
+
+================
+
+<select tabindex="0" class="oui-select oui-react-select" id="packageVersion-a5808815-becc-8306-54b2-5cd36aa13449" name="packageVersion" aria-describedby="packageVersion-a5808815-becc-8306-54b2-5cd36aa13449-error"><option value="R81.20_rev1.0">R81.20_rev1.0 (02/03/2023) - valeur par défaut</option><option value="R81 with JHF 65">R81 with JHF 65 (07/07/2022)</option><option value="R81.10 with JHF 45">R81.10 with JHF 45 (07/07/2022)</option><option value="R80.40_rev1.4">R80.40_rev1.4 (21/12/2021)</option><option value="R81.10_rev1.1">R81.10_rev1.1 (20/12/2021)</option><option value="R81_rev1.2">R81_rev1.2 (20/12/2021)</option><option value="R80.40_rev1.3">R80.40_rev1.3 (17/11/2021)</option><option value="R80.30 rev 1.4">R80.30 rev 1.4 (15/12/2020)</option><option value="R80.30 rev 1.3">R80.30 rev 1.3 (23/07/2020)</option></select>
+
+===============
+
+https://192.18.155.18/
+
+==================
+
+Check Point Security Policies
+Refer to the application documentation in the Explore More section for the most up-to-date information on required ports and protocols.
+
+=================
+
+Western ( Windows 1252 )
+
+================
+
+ssh –i id_rsa admin@<IP Address>
+
+ssh –i id_rsa admin@192.18.155.18
+
+ssh –i privateKey admin@<cluster-member-publicip>
+
+ssh –i privateKey admin@192.18.155.18
+
+======================
+
+
+output "initial_instruction" {
+value = <<EOT
+Configuring a Gateway in the Gaia Portal
+1.  Open an SSH client.
+2.  Use the following information to connect to the instance
+username: admin
+IP_Address: Public or Private IP address of the instance
+SSH Key
+For example:
+$ ssh –i id_rsa admin@<IP Address>
+3.  Set the user password for the administrator. Enter the command: set user admin password
+4. Save the configuration. Enter the command: save config
+After saving the password, you should run the first time wizard in the Gaia Portal:
+1.  In a web browser, connect to the Gaia Portal: https://<IP_address>
+2.  Follow the First Time Configuration Wizard.
+3.  For additional details follow the documentation.
+Configuring a Gateway in SmartConsole
+After completing the "First Time Wizard (FTW)" you need to configure the Gateway in SmartConsole.
+1.    Go to SmartConsole > Gateways & Servers view.
+2.    Click the new icon > Gateway.
+3.    The Check Point Security Gateway Creation window shows.
+4.    Select youre preferred mode (Standard or Wizard).
+5.    Enter the fields in the General Properties window.
+6.    Click Next.
+7.    Establish SIC.
+8.    Click Finish.
+9.    The Check Point Gateway General Properties window apprears.
+10.  Complete the configuration of the gateway.
+Notes:
+1.    SSH password authentication is disabled
+2.    For information regarding Firefox and Chrome refer to https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk121373
+EOT
+}
+
+================
+
+ssh-keygen -t rsa -N "" -b "2048" -C "key comment" -f path/root_name
+
+ssh-keygen -t rsa -N "" -b "2048" -C "cle ssh checkpoint cloudguard" -f clesshcheckpoint
+
+ssh-keygen -t rsa -N "" -b "2048" -C "cle ssh checkpoint cloudguard"
+
+cd clessh
+ssh-keygen -t rsa -N "" -b "2048" -C "cle ssh checkpoint cloudguard" -f clesshcloudguard
+
+ssh –i clesshcloudguard admin@129.153.58.172
+
+129.153.58.172
+
+https://129.153.58.172/
+
+===========
+
+
+
+====================
+ var gestLogStorageAccountNameSansPoint=replace(gestLogStorageAccountName, '.', '')
+ var gestLogStorageAccountNameSansTiret=replace(gestLogStorageAccountNameSansPoint, '-', '')
+ var gestLogStorageAccountNameSansSurligne=replace('${gestLogStorageAccountNameSansTiret}', '_', '')
+ var gestLogStorageAccountNameCorrect=toLower('${gestLogStorageAccountNameSansSurligne}')
+ 
+
+reproduire dans avd
+
+===========
+
+randomiser le st avec un prefixe ou le id abonnementme gestion
+
+rendre unique le nmom du st dans l unuivers azure devops
+
+ajouter un prefixe comme parametre au script de la Za Azure
+
+la taille d u st doit etre 24 caraceterre max
+
+prefixe + ID RG ( ou ID Abonnement ) + random unique string
+
+crer un module dont le role unique est de gemrer un st name
+
+se baser sur mecanique dans UDR
+
+
+
+resource udr 'Microsoft.Network/routeTables@2020-06-01' = {
+  name: name
+  location: location
+  properties: {
+    routes: union(flatten(flatten(mod_nva_routes.outputs.route_table_nva_2)),flatten(flatten(mod_vpn_routes.outputs.route_table_vpn_2)))
+  }
+  tags: tags
+}
+
+dans 
+
+modules\udr\udr.bicep
+
+==============
+
+
+New-AzResourceGroupDeployment `
+  -TemplateSpecId $id `
+  -ResourceGroupName storageRG `
+  -storageNamePrefix "demo"
+
+================
+
+A mettre dans un frais gemeraux
+
+Abonnement logiciel Azure
+Abonnement service Twilio
+a ajouter dans frais general
+
+Hebergement annuel site web
+Achat annuel protocole HTTPS
+
+si c est un frais recurrent , faut pas mettre commme immobilisations
+
+=============
+
+dans autre photo , je peux ajouter capture ecran
+
+=========
+
+identite et gestion
+
+abonnement_gestion.id
+
+resourcegroupe_gestion.id
+
+==============
+
+
+dev/BugFix/199115-factorisation-storage-account
+
+modules\storage-account\creation_comptestockage_unique.bicep
+
+dont le role est de générer , a partir d'un préfixe , un nom de compte de stockage
+
+hub-and-spokes\spokes\spoke_gestion.bicep
+
+Commit cca222a9: ajout TODO : recuperer nom unique compte stockage géneré et le passer a la variable gestLogStorageAccountNameCorrect dans hub-and-spokes\spokes\spoke_nongestion.bicep
+- recuperer nom unique compte stockage géneré et le passer a la variable gestLogStorageAccountNameCorrect dans hub-and-spokes\spokes\spoke_gestion.bicep
+����
+
+==============
+
+Pierre Lavoie
+
+===============
+
+
+var nomCompteStockage = createuniquestorageaccount.outputs.onomCompeStockagePourZoneAccueil
+
+
+================
+
+code a retirer
+
+module createuniquestorageaccount '../../modules/storage-account/creation_comptestockage_unique.bicep' = if (!empty(logStorageAccount) && (subscriptionId==gestSubscriptionId)) {
+  name : 'createuniquestorageaccount-${uniqueString(subscriptionId)}'
+  scope: resourceGroup(gestSubscriptionId, ((!empty(logStorageAccount)) ? logStorageAccount.resourceGroup : ''))
+  params: {
+    prefixDansNomCompteStockage: prefixDansNomCompteStockage
+    kind: logStorageAccount.kind
+    location: location
+    skuName: logStorageAccount.skuName
+    tags: logStorageAccount.tags
+    subscriptionId: subscriptionId
+    virtualNetwork: virtualNetwork
+  }
+  dependsOn: [
+	creatergspoke
+  ] 
+}
+
+
+====================
+
+A member of Developpeurs-ZA-Azure must approve
+
+===============
+
+azure-pipeline\templates\steps\deploy-landingzone.yml
+
+=/  hub-and-spokes\spokes\spoke_nongestion.bicep
+
+=/ 
+
+
+//Obtention du nom unique du compte de stockage a utiliser dans ce module bicep
+//son déploiement a été fait dans spoke_gestion.bicep
+module createnomuniquestorageaccount '../../modules/storage-account/creation_nom_unique_comptestockage.bicep' = if (!empty(logStorageAccount)) {
+  name : 'createnomuniquestorageaccount-${uniqueString(subscriptionId)}'
+  scope: resourceGroup(gestSubscriptionId, ((!empty(logStorageAccount)) ? logStorageAccount.resourceGroup : ''))
+  params: {
+    prefixDansNomCompteStockage: prefixDansNomCompteStockage
+    suffixe: gestSubscriptionId
+  }
+  dependsOn: [
+	creatergspoke
+  ]
+}
+
+resultat
+
+ "id": "/subscriptions/7761dea6-74ff-4faf-b3dc-3f04b66f2f75/providers/Microsoft.Resources/deployments/Prod-données-sensibles",
+2023-06-14T15:46:42.4781176Z   "location": "canadacentral",
+2023-06-14T15:46:42.4781399Z   "name": "Prod-données-sensibles",
+2023-06-14T15:46:42.4781566Z   "properties": {
+2023-06-14T15:46:42.4781826Z     "correlationId": "9ae9ffc7-6f3c-4142-99dc-66b98fc56474",
+2023-06-14T15:46:42.4782016Z     "debugSetting": null,
+2023-06-14T15:46:42.4782169Z     "dependencies": [],
+2023-06-14T15:46:42.4782309Z     "duration": "PT0.9474326S",
+2023-06-14T15:46:42.4782462Z     "error": null,
+2023-06-14T15:46:42.4790150Z     "mode": "Incremental",
+2023-06-14T15:46:42.4790328Z     "onErrorDeployment": null,
+2023-06-14T15:46:42.4790472Z     "outputResources": [],
+2023-06-14T15:46:42.4790620Z     "outputs": {
+2023-06-14T15:46:42.4790767Z       "ologStorageAccount": {
+2023-06-14T15:46:42.4790907Z         "type": "String",
+2023-06-14T15:46:42.4791072Z         "value": "logStorageAccount_est_vide"
+2023-06-14T15:46:42.4791212Z       },
+2023-06-14T15:46:42.4791370Z       "oprefixDansNomCompteStockag": {
+2023-06-14T15:46:42.4791536Z         "type": "String",
+2023-06-14T15:46:42.4791667Z         "value": "ceiza"
+2023-06-14T15:46:42.4791802Z       }
+2023-06-14T15:46:42.4791912Z     },
+
+====================================
+
+ "logStorageAccount": {
+2023-06-14T15:05:37.6629739Z         "type": "Object",
+2023-06-14T15:05:37.6629902Z         "value": {
+2023-06-14T15:05:37.6630025Z           "kind": "StorageV2",
+2023-06-14T15:05:37.6630147Z           "name": "",
+2023-06-14T15:05:37.6630349Z           "resourceGroup": "rg-alaw-gestion-prod-cac-001",
+2023-06-14T15:05:37.6630504Z           "skuName": "Standard_LRS",
+2023-06-14T15:05:37.6630619Z           "tags": {}
+2023-06-14T15:05:37.6630728Z         }
+2023-06-14T15:05:37.6630835Z       },
+
+
+======================
+
+  "ogestLogStorageAccountNameCorrect": {
+2023-06-14T16:05:06.9691479Z         "type": "String",
+2023-06-14T16:05:06.9691612Z         "value": "ceizautklkk"
+2023-06-14T16:05:06.9691753Z       },
+
+=================
+
+
+dev/PlanTest/199205-plan-test-policies
+
+================
+
+https://docs.oracle.com/en-us/iaas/tools/oci-cli/3.29.0/oci_cli_docs/cmdref/iam.html
+
+==============
+
+ajout de vcn  == on a 9 vcn dans architecture ZA recommandé par MCN
+renommer des vcn
+
+ajout des compartiments = on a 5 compartiments dans architecture ZA recommandé par MCN
+renommer des compartiments
+
+

@@ -1,0 +1,63 @@
+
+================
+
+objectif smart oci
+nettoyer compartiment dans tenant oci
+
+SMART !
+
+
+•	Mettre à jour la version de la ressource App Gateway déployé par le script de la ZA Azure
+•	Corriger 3 anomalies mineures du script de déploiement de la ZA Azure précédemment répertoriées (dette)
+•	Rédiger un document d’analyse et d’orientation sur une possible standardisation de la configuration interne de Fortigate au travers les différentes ZA du CEI
+•	Valider la présence des politiques (et ajouter dans le script de la ZA Azure dans le cas échéant) pour renforcer la désactivation des endpoints publiques sur les voutes, compte de stockage et serveurs SQL
+•	Ajouter les ressources Azure et la configuration nécessaire dans le script de déploiement de la ZA pour permettre la communication privée avec les voutes et compte de stockage
+•	Créer un abonnement dédié à la simulation de scénario OnPrem pour le CEI et y provisionner un Domain Controller en vue le connecter à notre AAD de développement
+•	Documenter la procédure d’activation des nouveaux agents de monitoring AMA (Azure Monitor Agent) des VM déployés dans Azure, incluant la procédure de migration pour les OP ayant précédemment déployé des agents de monitoring OMS/MMA
+•	Rédiger un document d’analyse sur les scénarios les plus probables de charges de travail rencontrés par les OP, qui servira de base pour éventuellement automatiser le déploiement de ceux-ci et ainsi effectuer des essais plus robustes et réalistes
+
+====================
+
+TRIMESTRE
+Tu peux mettre juste ce qu’il y a en bleu pour les objectifs trimestriels dans le dashboard devops
+
+Objectis trimestriels
+Objectifs d’itération (pour les 3 itérations… peut-être va évoluer en cours de route mais ça va ressembler à ça)
+
+Mettre à jour de la version utilisé du App Gateway    (Maintenance)
+                Mettre à jour de la version utilisée du App Gateway
+Améliorer la paramétrisation du déploiement de Fortigate (HA et configuration internes) (Nouvelle Fonctionnalité)
+Analyser comment standardiser la configuration interne au sein du CEI
+                Automatiser la configuration Fortigate interne depuis une pipeline
+                Provisionnement minime Fortigate sans HA
+Automatiser le déploiement des private endpoints et des configurations pour les supporter (Nouvelle Fonctionnalité)
+                Revérification des policy pour public endpoint storage/sql/keyvault
+                Privatiser les storage account et keyvault
+Documenter la procédure de migration/activation des agents OMS/MMA vers AMA   (Maintenance)
+                Documenter la procédure de migration/activation des agents OMS/MMA vers AMA
+Corriger certaines anomalies mineures connues (Bugs connues)
+                Corriger certaines anomalies mineures connues (Bugs connues)
+Nettoyer et restructurer les fichiers de configurations et de pipelines (Refactorisation et Nettoyage)
+                Séparer les pipelines par abonnements
+                Améliorer certain aspect de configuration par rapport au plan d'adressage et autres fichiers json obsolètes
+Nettoyer et restructurer la documentation selon un standard CEI (Refactorisation et Nettoyage)
+                Analyse de standard de documentation CEI
+                Restructurer la documentation selon les standards définis
+Débuter les fondations pour mettre en place un environnement de base pour simuler CEI Azure OnPrem (Contrôle qualité)
+                Configuration de l’infra de base dans un abonnement dédié pour simuler onprem
+                Setuper AD DS + DNS Server + AD Connect sur un DC dans ce laboratoire dédié
+                Faire ajout des NS record dans le DNS server MCN pour sous domaine en attente d'être créé
+Débuter les fondations pour simuler des charges de travail à des fins d'essais et de démos (Contrôle qualité)
+                Débuter un atelier pour cibler les scénarios typiques prioritaires
+                Implémenter l'automatisation de certains scénarios définis comme prioritaire pour Azure
+
+PROCHAINE INTÉRATION
+•	Mettre à jour de la version utilisée du App Gateway
+•	Corriger certaines anomalies mineures connues (Bugs connues)
+•	Analyser comment standardiser la configuration interne au sein du CEI
+•	Revérification des policy pour public endpoint storage/sql/keyvault
+•	Privatiser les storage account et keyvault
+•	Configuration de l’infra de base dans un abonnement dédié pour simuler onprem
+•	Documenter la procédure de migration/activation des agents OMS/MMA vers AMA
+•	Débuter un atelier pour cibler les scénarios typiques prioritaires
+
